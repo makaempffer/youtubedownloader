@@ -58,7 +58,7 @@ tk.Label(root, text="YouTube URL:").pack(pady=5)
 url_entry = tk.Entry(root, width=50)
 url_entry.pack(pady=5)
 
-#tk.Button(root, text="Download Video", command=download_video).pack(pady=10)
+tk.Button(root, text="Download Video", command=download_video).pack(pady=10)
 tk.Button(root, text="Download Audio (MP3)", command=download_audio).pack(pady=10)
 
 root.mainloop()
